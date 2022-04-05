@@ -8,8 +8,6 @@ public class HelloWorldApplication {
 
 	public static void main(String[] args) throws InterruptedException {
 		SpringApplication.run(HelloWorldApplication.class, args);
-		System.out.println("Hello World");
-		Thread.sleep(10000);
 	}
 
 }
